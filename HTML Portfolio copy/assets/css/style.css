@@ -1,0 +1,106 @@
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin-top: 0px;
+  ;
+}
+
+/* || Header  */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px;
+  padding-left: 0px;
+  background-color: rgb(53, 51, 51);
+}
+ 
+.navbar h1{
+  background-color: aquamarine;
+  font-size: 25px;
+  padding-top: 5px;
+  padding-right: 5px;
+  padding-bottom: 5px;
+  padding-left: 30px;
+ 
+}
+.navbar nav a{
+  color:aquamarine;
+  background-color: rgb(53, 51, 51);
+  padding: 5px;
+  padding-bottom: 2px;
+  border-bottom: 2px solid aquamarine;
+  text-decoration: none;
+}
+.hero {
+  height: 80px;
+  margin-bottom: -5px;
+  Position: relative;
+  background-color: lightgrey
+}
+.hero img {
+  height: 100%;
+  width: 100%;
+}
+.hero h2{
+  position: absolute;
+  bottom: 10px;
+  right: 30px;
+  background-color: aquamarine;
+  padding: 5px;
+}
+
+.outer{
+  background-size: cover;
+  background-color: lightgrey;
+}
+
+.row-flex {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: stretch;
+  gap: 5px;
+  padding: 5px;
+  margin: 10px;
+} 
+
+.content-flex-item {
+    background-color: lightgray;
+    flex-grow: 2;
+    gap: 20px;
+    padding-left: 20px;
+}
+
+#headshot {
+  padding-left: 20px;
+  height: 100px;
+}
+
+.aside-flex-item {
+  min-width: 120px;
+  max-width: 120px;
+  text-align: right;
+  padding-right: 20px;
+  border-right: black 2px solid;
+  font-weight: bold;
+}
+
+
+.content-flex-box {
+  padding: 5px;
+  margin: 5px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 5px;
+  align-content: center;
+  justify-content: center;
+} 
+
+.project-img {
+  border-color: aquamarine;
+}
+
+
